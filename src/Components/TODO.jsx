@@ -9,7 +9,7 @@ const TODO = () => {
   };
 
   const decreaseCount = () => {
-    setCount(count + 1);
+    setCount(count - 1);
   };
 
   const resetCount = () => {
@@ -42,7 +42,7 @@ const TODO = () => {
         </button>
         <button
           className="btn btn-outline-dark p-2 mt-4"
-          style={{ fontSize: "20px" }}
+          style={{ fontSize: "20px" ,marginLeft:"10px" , marginRight:"10px"}}
           onClick={resetCount}
         >
           {" "}
